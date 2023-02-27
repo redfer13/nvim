@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pf", vim.cmd.NvimTreeToggle)
+vim.keymap.set("n", "<leader>pe", vim.cmd.NvimTreeToggle)
 
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>ps", builtin.find_files)
