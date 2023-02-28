@@ -39,4 +39,8 @@ return require("packer").startup(function(use)
 	})
 
 	use("jose-elias-alvarez/null-ls.nvim")
+	use("onsails/lspkind.nvim")
+
+	use("tpope/vim-surround")
+	use("tpope/vim-commentary")
 end)
