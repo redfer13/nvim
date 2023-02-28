@@ -1,4 +1,5 @@
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.laststatus = 3
 
 vim.opt.tabstop = 4
